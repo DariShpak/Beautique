@@ -1,0 +1,16 @@
+:root {
+  --bg-color: #f0e8d9;
+  --bg-color-light: #f5f2ec;
+  --text-color: #442a19;
+}
+
+body {
+  font-family: "Roboto Serif", serif;
+  background-color: var(--bg-color-light);
+  color: var(--text-color);
+}
+
+.container {
+  padding-left: 64px;
+  padding-right: 64px;
+}
