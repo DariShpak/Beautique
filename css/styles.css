@@ -14,3 +14,73 @@ body {
   padding-left: 64px;
   padding-right: 64px;
 }
+
+.section {
+  padding-top: 72px;
+
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.header-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 24px;
+}
+
+.lang-list {
+  display: flex;
+  gap: 16px;
+}
+/* 
+.hero-section {
+  padding-top: 72px;
+  padding-bottom: 72px;
+} */
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+.category-list{
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+}
