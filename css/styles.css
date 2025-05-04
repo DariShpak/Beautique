@@ -1,7 +1,7 @@
 :root {
-  --bg-color: #f0e8d9;
   --bg-color-light: #f5f2ec;
   --text-color: #442a19;
+  --button-color: #6b5c4c;
 }
 
 body {
@@ -17,7 +17,8 @@ body {
 
 .section {
   padding-top: 72px;
-
+  padding-bottom: 72px;
+  border-bottom: 1px solid var(--button-color);
 }
 
 button {
@@ -49,6 +50,11 @@ img {
   list-style: none;
 }
 
+/* header */
+.header {
+  border-bottom: 1px solid var(--button-color);
+}
+
 .header-container {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -61,15 +67,13 @@ img {
   gap: 24px;
 }
 
-.lang-list {
+.btn-list {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
-/* 
-.hero-section {
-  padding-top: 72px;
-  padding-bottom: 72px;
-} */
+
+/* hero */
 
 .hero-container {
   display: flex;
@@ -77,9 +81,20 @@ img {
   justify-content: space-evenly;
 }
 
+.hero-title {
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
 
+.hero-img-wrap {
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
-.category-list{
+.category-list {
   display: flex;
   justify-content: center;
   gap: 72px;
