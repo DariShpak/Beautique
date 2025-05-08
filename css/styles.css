@@ -50,6 +50,14 @@ img {
   list-style: none;
 }
 
+.wow-section {
+  text-align: center;
+}
+
+.wow-title {
+  font-weight: 200;
+}
+
 /* header */
 .header {
   border-bottom: 1px solid var(--button-color);
@@ -95,6 +103,12 @@ img {
 }
 
 .category-list {
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+}
+
+.footer-nav {
   display: flex;
   justify-content: center;
   gap: 72px;
