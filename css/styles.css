@@ -48,6 +48,15 @@ img {
   height: auto;
 }
 
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.link:visited {
+  color: var(--text-color);
+}
+
 .list {
   list-style: none;
 }
@@ -188,4 +197,13 @@ img {
   display: flex;
   justify-content: center;
   gap: 72px;
+}
+
+.filter-list {
+  display: flex;
+  gap: 16px;
+}
+
+.filter-btn {
+  min-width: 148px;
 }
