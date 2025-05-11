@@ -131,7 +131,7 @@ img {
 
 .about-container {
   display: flex;
-  gap: 48px;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -176,6 +176,12 @@ img {
   display: flex;
   justify-content: center;
   gap: 48px;
+}
+
+.specials-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .footer-nav {
