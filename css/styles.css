@@ -207,3 +207,11 @@ img {
 .filter-btn {
   min-width: 148px;
 }
+
+.shop-products-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 42px;
+  margin-top: 72px;
+}
