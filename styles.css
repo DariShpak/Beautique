@@ -1,0 +1,66 @@
+:root {
+  --bg-color-light: #f5f2ec;
+  --text-color: #442a19;
+  --button-color: #6b5c4c;
+  --border-color: #d2cec9;
+}
+
+body {
+  font-family: "Roboto Serif", serif;
+  background-color: var(--bg-color-light);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+ul,
+ol {
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.icon {
+  fill: var(--text-color);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+
+  cursor: pointer;
+}
+
+.link:visited {
+  color: var(--text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.section {
+  padding-top: 72px;
+  padding-bottom: 72px;
+  border-bottom: 1px solid var(--button-color);
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  max-width: 375px;
+}
