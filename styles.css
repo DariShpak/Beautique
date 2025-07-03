@@ -345,6 +345,7 @@ body.lock-scroll {
   padding-bottom: 24px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 
   justify-content: center;
 
@@ -370,6 +371,8 @@ body.lock-scroll {
 .item-card-img {
   width: 260px;
   height: 260px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item-card-img img {
