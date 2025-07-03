@@ -539,7 +539,7 @@ body.lock-scroll {
   top: 0;
   right: -400px; /* приховано */
   width: 400px;
-  height: 100vh;
+  height: 90vh;
   background: var(--bg-color-light);
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
   transition: right 0.3s ease;
