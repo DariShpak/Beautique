@@ -57,10 +57,9 @@ body.lock-scroll {
 }
 
 .section {
-  padding-top: 72px;
-  padding-bottom: 72px;
+  padding-top: 36px;
+  padding-bottom: 36px;
   border-bottom: 1px solid var(--button-color);
-
 }
 
 .container {
@@ -69,7 +68,8 @@ body.lock-scroll {
 
   max-width: 375px;
 
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .shop-link-btn {
@@ -97,10 +97,24 @@ body.lock-scroll {
   color: var(--text-color);
 }
 
+.wow-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 22px;
+}
+
+.section-text {
+  font-size: 16px;
+}
+
 /* ------------------HEADER---------------------------- */
 .header {
-  padding-top: 24px;
-  padding-bottom: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--button-color);
 }
 
 .header-container {
@@ -116,6 +130,10 @@ body.lock-scroll {
 
 .site-nav-header {
   display: none;
+}
+
+.header-nav-item {
+  text-transform: lowercase;
 }
 
 .header-btn-list {
@@ -177,7 +195,7 @@ body.lock-scroll {
 .hero-container {
   display: flex;
   flex-direction: column;
-  gap: 72px;
+  gap: 48px;
 }
 
 .hero-title {
@@ -199,4 +217,30 @@ body.lock-scroll {
 
   font-size: 16px;
   text-align: justify;
+}
+
+/* ---------------------ABOUT---------------------- */
+.about-section-title{
+  margin-bottom: 24px;
+}
+
+.about-text-wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.about-btn{
+  margin-top: 24px;
+  margin-bottom: 36px;
+
+  background-color: var(--bg-color-light);
+  color: var(--text-color);
+  transition: all 0.6s ease;
+}
+
+
+.about-btn:hover {
+  background-color: var(--button-color);
+  color: var(--bg-color-light);
 }
