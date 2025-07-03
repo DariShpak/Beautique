@@ -127,6 +127,7 @@ body.lock-scroll {
 
 .section-title {
   font-size: 22px;
+  margin-bottom: 24px;
 }
 
 .section-text {
@@ -233,7 +234,7 @@ body.lock-scroll {
 }
 
 .hero-img > img {
-  width: 335px;
+  width: 100%;
 }
 
 .hero-text {
@@ -268,19 +269,29 @@ body.lock-scroll {
   color: var(--bg-color-light);
 }
 
+.about-img-wrap img {
+  width: 100%;
+}
+
 /* -------------------CATEGORY------------------ */
 
-.section-text-wrap {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  margin-bottom: 24px;
+
+
+.category-btn {
+  margin-top: 24px;
 }
 
 .categoty-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.category-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  min-height: 44px;
 }
 
 .category-card {
@@ -319,3 +330,6 @@ body.lock-scroll {
   margin: 0;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
+
+/* -------------------RECOMMEND-SECTION-------------------- */
+
