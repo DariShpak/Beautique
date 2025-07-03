@@ -436,3 +436,52 @@ body.lock-scroll {
   background-color: var(--button-color);
   color: var(--bg-color-light);
 }
+
+/* -----------------ITEM-PAGE-------------- */
+.item-photo img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.item-photo {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.category-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--bg-color-light);
+  color: inherit;
+  padding: 12px 12px;
+  width: 64px;
+  border-radius: 50px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.purchase-wrap{
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item-card-price{
+  font-size: 24px;
+}
+
+/* .item-description {
+  margin-top: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.item-card-price {
+  font-size: 24px;
+} */
+
