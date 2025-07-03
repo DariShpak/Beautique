@@ -367,6 +367,11 @@ body.lock-scroll {
   font-size: 12px;
 }
 
+.item-card-img {
+  width: 260px;
+  height: 260px;
+}
+
 .item-card-img img {
   display: block;
   height: 100%;
@@ -393,7 +398,6 @@ body.lock-scroll {
 
   display: flex;
   flex-direction: column;
-
 }
 
 .footer-nav-list {
