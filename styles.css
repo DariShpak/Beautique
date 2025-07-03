@@ -413,19 +413,11 @@ body.lock-scroll {
 
 /* ----------------SHOP-PAGE-------------- */
 
-/* .filter-list{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  margin-bottom: 48px;
-} */
-
-/* Горизонтальний ряд кнопок */
 .filter-list {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-bottom: 24px;
+  margin-bottom: 36px;
 }
 
 .filter-btn {
