@@ -96,7 +96,7 @@ body.lock-scroll {
 
   display: flex;
   justify-content: center;
-  width: 150px;
+  width: 180px;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 24px;
@@ -275,8 +275,6 @@ body.lock-scroll {
 
 /* -------------------CATEGORY------------------ */
 
-
-
 .category-btn {
   margin-top: 24px;
 }
@@ -333,3 +331,76 @@ body.lock-scroll {
 
 /* -------------------RECOMMEND-SECTION-------------------- */
 
+.recommend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.recommend-item {
+  border: 1px solid var(--border-color);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+
+  justify-content: center;
+
+  transition: all 0.6s ease;
+}
+
+.recommend-item:hover {
+  border: 1px solid var(--text-color);
+}
+
+.item-card-description {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item-card-subtitle {
+  color: var(--button-color);
+  font-size: 12px;
+}
+
+.item-card-img img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* .item-card-img:hover img {
+  transform: scale(1.05);
+} */
+
+.shop-link-btn.cart-button {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -----------------Footer------------------ */
+
+.footer-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer-nav-list {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  justify-content: space-between;
+}
