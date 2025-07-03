@@ -20,7 +20,7 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 0;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 ul,
@@ -35,6 +35,25 @@ img {
 
 body.lock-scroll {
   overflow: hidden;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .icon {
@@ -97,9 +116,13 @@ body.lock-scroll {
   color: var(--text-color);
 }
 
-.wow-title {
-  font-size: 20px;
+.wow-section {
   text-align: center;
+}
+
+.wow-title {
+  font-weight: 300;
+  font-size: 20px;
 }
 
 .section-title {
@@ -126,6 +149,7 @@ body.lock-scroll {
 
 .logo {
   font-size: 22px;
+  font-weight: 200;
 }
 
 .site-nav-header {
@@ -220,17 +244,17 @@ body.lock-scroll {
 }
 
 /* ---------------------ABOUT---------------------- */
-.about-section-title{
+.about-section-title {
   margin-bottom: 24px;
 }
 
-.about-text-wrap{
+.about-text-wrap {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.about-btn{
+.about-btn {
   margin-top: 24px;
   margin-bottom: 36px;
 
@@ -239,8 +263,10 @@ body.lock-scroll {
   transition: all 0.6s ease;
 }
 
-
 .about-btn:hover {
   background-color: var(--button-color);
   color: var(--bg-color-light);
 }
+
+/* -------------------CATEGORY------------------ */
+
