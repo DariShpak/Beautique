@@ -117,9 +117,7 @@
       <section class="section item-section">
         <div class="container item-container">
           <div class="back-navigation">
-            <a href="./shop.html" class=" back-link link"
-              >← Back to shop
-            </a>
+            <a href="./shop.html" class="back-link link">← Back to shop </a>
           </div>
           <div class="item-photo">
             <p class="section-text category-badge item-card-subtitle">
@@ -134,6 +132,7 @@
           <div class="item-description">
             <h1 class="item-title">CALM BODY LOTION</h1>
             <h2 class="section-text item-card-subtitle">Hadat Cosmetics</h2>
+            <!-- <p class="section-text">300ml</p> -->
           </div>
           <div class="purchase-wrap">
             <p class="item-card-price">€34,95</p>
@@ -142,26 +141,48 @@
 
           <p class="section-text item-text">
             Soft texture body lotion suitable for any skin type. Gives a
-            magnificent aroma to the body. Enriched with natural hemp seed oil,
-            Coconut oil, Aloe vera extract. Lotion easily absorbs into your
+            magnificent aroma to the body. Enriched with natural hemp seed oil -
+            nourishing and moisturizing, Coconut oil – deep hydration, Aloe vera
+            extract - soothing and healing. Lotion easily absorbs into your
             skin, leaving it smooth and soft.
           </p>
 
-          <!-- <h3 class="section-text">How to use</h3>
-          <p class="section-text ">
-            Apply the lotion to clean skin. Gently massage it over your entire
-            body, paying special attention to dry and sensitive areas. The
-            lotion absorbs quickly without leaving a sticky residue, delivering
-            deep hydration and lasting comfort. For best results, use in
-            combination with other products from the Hadat Calm line: – Start
-            with Hadat Cosmetics Calm Shower Gel to cleanse and prepare your
-            skin for hydration. – After applying the lotion, follow with Hadat
-            Cosmetics Calm Body Cream for extra nourishment and protection. This
-            HADAT body care ritual provides professional-level hydration,
-            restoration, and comfort — leaving your skin feeling soft, fresh,
-            and cared for all day long.
-          </p>
-          <h3 class="section-text "></h3> -->
+          <div class="product-tabs">
+            <div class="tab-buttons">
+              <button class="tab-btn active" data-tab="how-to-use">
+                How to Use
+              </button>
+              <button class="tab-btn" data-tab="ingredients">
+                Ingredients
+              </button>
+            </div>
+
+            <div class="tab-content">
+              <div class="tab-pane active" id="how-to-use">
+                <p class="section-text">
+                  Apply a small amount of the lotion on clean, dry skin and let
+                  it absorb. Suitable for regular daily use.
+                </p>
+              </div>
+
+              <div class="tab-pane" id="ingredients">
+                <p class="section-text">
+                  Aqua, Caprylic/Capric Triglyceride, Polyglyceryl-3
+                  Methylglucose Distearate, Cocos Nucifera Oil, Butyrospermum
+                  Parkii Butter, Cannabis Sativa Seed Oil, Hadatсosmetics,
+                  Prunus Amygdalus Dulcis Oil, Aloe Barbadensis Extract,
+                  Glyceryl Stearate, Sodium Polyacrylate, Parfum, Stearyl
+                  Alcohol, Glycerin, Panthenol, Polysorbate 20, Chlorphenesin,
+                  Phenoxyethanol, Ethylhexylglycerin, Potassium Sorbate, Sodium
+                  Benzoate, Linalool, Hexyl Cinnamal, Linalyl Acetate, Limonene,
+                  Tetramethyl Acetyloctahydronaphthalenes, Citrus Limon Peel
+                  Oil, Benzyl Salicylate, Hexamethylindanopyran, Citrus
+                  Aurantium Peel Oil, Pinene, Beta-Caryophyllene, Geraniol,
+                  Citronellol.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section class="section recommend-section">
@@ -253,5 +274,6 @@
       </div>
     </footer>
     <script type="module" src="./js/mob-menu.js"></script>
+    <script type="module" src="./js/item-tabs.js"></script>
   </body>
 </html>
