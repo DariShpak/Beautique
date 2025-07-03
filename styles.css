@@ -411,13 +411,56 @@ body.lock-scroll {
   justify-content: space-between;
 }
 
-
-
 /* ----------------SHOP-PAGE-------------- */
 
-.filter-list{
+/* .filter-list{
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   margin-bottom: 48px;
+} */
+
+/* Контейнер фільтрів */
+.filter-section {
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+/* Скролабельний контейнер */
+.filter-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.filter-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Горизонтальний ряд кнопок */
+.filter-list {
+  display: flex;
+  gap: 12px;
+  padding: 10px 0;
+  white-space: nowrap;
+}
+
+/* Компактні кнопки */
+.filter-btn {
+  padding: 8px 20px;
+  border: 1px solid #8b7765;
+  background: transparent;
+  color: #442a19;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  min-width: max-content;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  background: #8b7765;
+  color: white;
 }
