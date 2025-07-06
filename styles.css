@@ -501,6 +501,7 @@ body.lock-scroll {
 .dropdown-arrow {
   transition: transform 0.3s ease;
   fill: var(--text-color);
+  margin-left: 8px;
 }
 
 .custom-dropdown.open .dropdown-arrow {
