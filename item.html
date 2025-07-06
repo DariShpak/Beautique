@@ -65,9 +65,10 @@
               </svg>
             </button>
           </li>
-          <!-- <li class="header-btn-item">
-            <button class="empty-button lang-btn">en</button>
-          </li> -->
+
+          <li class="header-btn-item">
+            <button class="lang-toggle" id="lang-toggle">EN</button>
+          </li>
           <li class="header-btn-item">
             <button class="mob-menu-btn empty-button" type="button">
               <svg
@@ -96,13 +97,23 @@
         <nav class="mob-menu-nav">
           <ul class="mob-menu-nav-list list">
             <li class="mob-menu-item">
-              <a class="mob-menu-nav-link link" href="./index.html">Home</a>
+              <a
+                class="mob-menu-nav-link link"
+                href="./index.html"
+                data-i18n="nav.home"
+                >Home</a
+              >
             </li>
             <li class="mob-menu-item">
               <a class="mob-menu-nav-link link" href="./about.html">About</a>
             </li>
             <li class="mob-menu-item">
-              <a class="mob-menu-nav-link link" href="./shop.html">Shop</a>
+              <a
+                class="mob-menu-nav-link link"
+                href="./shop.html"
+                data-i18n="nav.shop"
+                >Shop</a
+              >
             </li>
             <li class="mob-menu-item">
               <a class="mob-menu-nav-link link" href="./contact.html"
@@ -132,10 +143,17 @@
           <div class="item-description">
             <h1 class="item-title">CALM BODY LOTION</h1>
             <h2 class="section-text item-card-subtitle">Hadat Cosmetics</h2>
-            <!-- <p class="section-text">300ml</p> -->
+            <p class="item-card-price">€34.95</p>
           </div>
+
           <div class="purchase-wrap">
-            <p class="item-card-price">€34,95</p>
+            <div class="volume-container">
+              <select id="volume-select" class="volume-select">
+                <option value="250ml" data-price="34.95" selected>250ml</option>
+                <option value="500ml" data-price="59.95">500ml</option>
+                <option value="1000ml" data-price="89.95">1L</option>
+              </select>
+            </div>
             <button class="shop-link-btn add-to-cart">Add to cart</button>
           </div>
 
@@ -299,7 +317,8 @@
 
     <script type="module" src="./js/mob-menu.js"></script>
     <script type="module" src="./js/item-tabs.js"></script>
-
+    <script type="module" src="./js/lang.js"></script>
     <script type="module" src="./js/cart.js"></script>
+    <script type="module" src="./js/volume-price.js"></script>
   </body>
 </html>
