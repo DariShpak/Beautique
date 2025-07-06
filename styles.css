@@ -481,6 +481,8 @@ body.lock-scroll {
   position: relative;
   width: 100%;
   cursor: pointer;
+
+  margin-top: 16px;
 }
 
 .dropdown-selected {
@@ -544,8 +546,8 @@ body.lock-scroll {
 }
 
 .item-card-price {
-  margin-top: 24px;
   font-size: 24px;
+  margin-left: 24px;
 }
 
 .product-tabs {
@@ -745,11 +747,17 @@ body.lock-scroll {
   color: var(--bg-color-light);
 }
 
-
 /* Мобільна версія */
 @media (max-width: 768px) {
   .cart-sidebar {
     width: 100%;
     right: -100%;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .container{
+    max-width: 768px;
   }
 }
