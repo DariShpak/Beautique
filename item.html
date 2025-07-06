@@ -148,11 +148,19 @@
 
           <div class="purchase-wrap">
             <div class="volume-container">
-              <select id="volume-select" class="volume-select">
-                <option value="250ml" data-price="34.95" selected>250ml</option>
-                <option value="500ml" data-price="59.95">500ml</option>
-                <option value="1000ml" data-price="89.95">1L</option>
-              </select>
+              <div class="custom-dropdown" id="volume-dropdown">
+                <div class="dropdown-selected" data-price="34.95">
+                  <span>250ml</span>
+                  <svg class="dropdown-arrow" width="12" height="12">
+                    <use href="./images/icons/icons.svg#icon-arrow-down"></use>
+                  </svg>
+                </div>
+                <div class="dropdown-options">
+                  <div class="dropdown-option active" data-value="250ml" data-price="34.95">250ml</div>
+                  <div class="dropdown-option" data-value="500ml" data-price="59.95">500ml</div>
+                  <div class="dropdown-option" data-value="850ml" data-price="89.95">850ml</div>
+                </div>
+              </div>
             </div>
             <button class="shop-link-btn add-to-cart">Add to cart</button>
           </div>
