@@ -194,7 +194,7 @@ body.lock-scroll {
 
 .section-text {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 /* ------------------HEADER---------------------------- */
@@ -437,6 +437,13 @@ body.lock-scroll {
     max-width: 320px;
   }
 }
+
+@media (min-width: 1280px) {
+  .about-img-wrap {
+    max-width: 360px;
+  }
+}
+
 .about-img-wrap img {
   width: 100%;
 }
@@ -480,6 +487,18 @@ body.lock-scroll {
 @media (min-width: 768px) {
   .category-card {
     max-width: 280px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .category-card {
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .category-card {
+    max-width: 360px;
   }
 }
 
@@ -537,6 +556,13 @@ body.lock-scroll {
     gap: 8px;
   }
 }
+
+@media (min-width: 1280px) {
+  .recommend-list {
+    gap: 24px;
+  }
+}
+
 .recommend-item {
   border: 1px solid var(--border-color);
   padding: 20px;
@@ -558,39 +584,64 @@ body.lock-scroll {
   }
 }
 
-
 @media (min-width: 1024px) {
   .recommend-item {
     max-width: 220px;
   }
 }
 
+@media (min-width: 1280px) {
+  .recommend-item {
+    max-width: 280px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .recommend-item {
+    max-width: 320px;
+  }
+}
+
 .item-card-img {
-  height: 100%;
   width: 100%;
 }
 
 .item-card-img img {
   display: block;
-  height: 100%;
+
   width: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .item-card-img {
     width: 278px;
     height: 278px;
   }
-}
+} */
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .item-card-img {
     width: 178px;
     height: 178px;
   }
+} */
+
+/* @media (min-width: 1280px) {
+  .item-card-img {
+    min-width: 216px;
+    min-height: 216px;
+  }
 }
+
+@media (min-width: 1440px) {
+  .item-card-img {
+    width: 246px;
+    height: 246px;
+  }
+} */
 
 .item-card-description {
   margin-top: 24px;
@@ -630,6 +681,66 @@ body.lock-scroll {
   flex-direction: column;
 }
 
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 96px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 96px;
+    justify-content: space-between;
+
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 96px;
+  }
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 576px) {
+  .footer-content {
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    gap: 96px;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    min-width: 380px;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-content {
+    min-width: 460px;
+    justify-content: space-between;
+  }
+}
+
 .footer-nav-list {
   margin-top: 24px;
   display: flex;
@@ -639,8 +750,22 @@ body.lock-scroll {
   justify-content: space-between;
 }
 
-/* ----------------SHOP-PAGE-------------- */
+@media (min-width: 768px) {
+  .footer-nav-list {
+    font-size: 18px;
+  }
+}
 
+/* ----------------SHOP-PAGE-------------- */
+.shop-hero-container .hero-title {
+  margin-bottom: 48px;
+}
+
+.shop-hero-text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 .filter-list {
   display: flex;
   flex-wrap: wrap;
@@ -671,6 +796,12 @@ body.lock-scroll {
   font-size: 14px;
   margin-bottom: 32px;
   display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .back-link {
+    font-size: 16px;
+  }
 }
 
 .item-photo img {
@@ -705,6 +836,21 @@ body.lock-scroll {
   justify-content: space-between;
 }
 
+@media (min-width: 576px) {
+  .purchase-wrap {
+    justify-content: space-evenly;
+  }
+}
+
+.purchase-wrap .item-card-price {
+  font-size: 24px;
+}
+
+@media (min-width: 576px) {
+  .purchase-wrap .item-card-price {
+    font-size: 28px;
+  }
+}
 .custom-dropdown {
   position: relative;
   width: 100%;
@@ -784,6 +930,12 @@ body.lock-scroll {
   margin-bottom: 24px;
 }
 
+@media (min-width: 576px) {
+  .tab-buttons {
+    justify-content: space-evenly;
+  }
+}
+
 .tab-btn {
   background: none;
   border: none;
@@ -793,6 +945,12 @@ body.lock-scroll {
   color: var(--button-color);
   border-bottom: 1px solid var(--border-color);
   transition: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .tab-btn {
+    font-size: 16px;
+  }
 }
 
 .tab-btn.active {
