@@ -320,7 +320,7 @@
                 >
 
                 <p class="item-card-price">€34.95</p>
-                <button class="shop-link-btn cart-button">Add to cart</button>
+                <button class="shop-link-btn cart-button add-to-cart">Add to cart</button>
               </div>
             </li>
             <li class="recommend-item">
@@ -340,7 +340,7 @@
                 >
 
                 <p class="item-card-price">€39.95</p>
-                <button class="shop-link-btn cart-button">Add to cart</button>
+                <button class="shop-link-btn cart-button add-to-cart">Add to cart</button>
               </div>
             </li>
           </ul>
@@ -383,7 +383,32 @@
         </div>
       </div>
     </footer>
+    <div class="cart-sidebar" id="cart-sidebar">
+      <div class="cart-header">
+        <h3>Your Cart</h3>
+        <button class="close-cart empty-button">
+          <svg class="close-cart-icon icon" width="22" height="22">
+            <use href="./images/icons/icons.svg#icon-close-line-icon"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="cart-items" id="cart-items">
+  
+      </div>
+
+      <div class="cart-footer">
+        <div class="cart-total">
+          <strong>Total: <span id="cart-total">€0.00</span></strong>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+      </div>
+    </div>
+
+    <div class="cart-overlay" id="cart-overlay"></div>
+
     <script type="module" src="./js/mob-menu.js"></script>
     <script type="module" src="./js/lang.js"></script>
+    <script type="module" src="./js/cart.js"></script>
   </body>
 </html>
