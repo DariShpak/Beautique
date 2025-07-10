@@ -114,7 +114,159 @@
         </nav>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="section contact-hero-section">
+        <div class="container contact-hero-container">
+          <h1 class="hero-title">Contact Us</h1>
+          <p class="section-text contact-subtitle">
+            We'd love to hear from you. Reach out with any questions about our products, your order, or just to say hello.
+          </p>
+        </div>
+      </section>
+
+      <section class="section contact-section">
+        <div class="container contact-container">
+          <div class="contact-content">
+            <div class="contact-info">
+              <h2 class="section-subtitle">Get in Touch</h2>
+              
+              <div class="contact-info-item">
+                <h3 class="contact-info-title">Email</h3>
+                <p class="section-text">
+                  <a href="mailto:hello@beautique.com" class="contact-link">hello@beautique.com</a>
+                </p>
+              </div>
+
+              <div class="contact-info-item">
+                <h3 class="contact-info-title">Phone</h3>
+                <p class="section-text">
+                  <a href="tel:+442012345678" class="contact-link">+44 20 1234 5678</a>
+                </p>
+              </div>
+
+              <div class="contact-info-item">
+                <h3 class="contact-info-title">Address</h3>
+                <p class="section-text">
+                  123 Beauty Lane<br>
+                  London, EC1A 1BB<br>
+                  United Kingdom
+                </p>
+              </div>
+
+              <div class="contact-info-item">
+                <h3 class="contact-info-title">Business Hours</h3>
+                <p class="section-text">
+                  Monday - Friday: 9:00 AM - 6:00 PM<br>
+                  Saturday: 10:00 AM - 4:00 PM<br>
+                  Sunday: Closed
+                </p>
+              </div>
+
+              <div class="contact-info-item">
+                <h3 class="contact-info-title">Follow Us</h3>
+                <div class="social-links">
+                  <a href="#" class="social-link" aria-label="Instagram">
+                    <svg class="social-icon icon" width="24" height="24">
+                      <use href="./images/icons/icons.svg#icon-instagram-shop-icon"></use>
+                    </svg>
+                  </a>
+                  <a href="#" class="social-link" aria-label="Facebook">
+                    <svg class="social-icon icon" width="24" height="24">
+                      <use href="./images/icons/icons.svg#icon-facebook-circle-fill-icon"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+              <h2 class="section-subtitle">Send Us a Message</h2>
+              <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                  <label for="name" class="form-label">Name</label>
+                  <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    class="form-input" 
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    class="form-input" 
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input 
+                    type="text" 
+                    id="subject" 
+                    name="subject" 
+                    class="form-input" 
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea 
+                    id="message" 
+                    name="message" 
+                    class="form-textarea" 
+                    rows="6" 
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="shop-link-btn contact-submit-btn">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="faq-section">
+            <h2 class="section-subtitle">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+              <h3 class="faq-question">What is your return policy?</h3>
+              <p class="section-text faq-answer">
+                We accept returns within 30 days of purchase. Items must be unopened and in their original packaging. Please contact us for a return authorization before sending items back.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3 class="faq-question">How long does shipping take?</h3>
+              <p class="section-text faq-answer">
+                Standard shipping takes 3-5 business days within the UK. International shipping typically takes 7-14 business days depending on location.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3 class="faq-question">Do you offer samples?</h3>
+              <p class="section-text faq-answer">
+                Yes, we offer sample sizes of select products. You can find them in our 'Specials' category or request specific samples with your order.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3 class="faq-question">Are your products cruelty-free?</h3>
+              <p class="section-text faq-answer">
+                Absolutely. All products in our boutique are cruelty-free and many are also vegan. Look for the specific labels on each product page.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer class="footer">
       <div class="container footer-container">
         <div class="header-logo">
@@ -123,22 +275,61 @@
         <div class="footer-content">
           <nav class="footer-nav">
             <ul class="list footer-nav-list">
-              <li class="footer-nav-item">Home</li>
-              <li class="footer-nav-item">About</li>
-              <li class="footer-nav-item">Shop</li>
+              <li class="footer-nav-item">
+                <a href="./index.html" class="link">Home</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="./about.html" class="link">About</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="./shop.html" class="link">Shop</a>
+              </li>
               <li class="footer-nav-item">Cart</li>
             </ul>
           </nav>
           <ul class="util-list list footer-nav-list">
-            <li class="footer-nav-item">Contact Us</li>
-            <li class="footer-nav-item">Privacy Policy</li>
-            <li class="footer-nav-item">Terms & Conditions</li>
-            <li class="footer-nav-item">Return Policy</li>
+            <li class="footer-nav-item">
+              <a href="./contact.html" class="link">Contact Us</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="./utils.html#privacy-policy" class="link">Privacy Policy</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="./utils.html#terms-conditions" class="link">Terms & Conditions</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="./utils.html#return-policy" class="link">Return Policy</a>
+            </li>
           </ul>
         </div>
       </div>
     </footer>
+    <div class="cart-sidebar" id="cart-sidebar">
+      <div class="cart-header">
+        <h3>Your Cart</h3>
+        <button class="close-cart empty-button">
+          <svg class="close-cart-icon icon" width="22" height="22">
+            <use href="./images/icons/icons.svg#icon-close-line-icon"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="cart-items" id="cart-items">
+
+      </div>
+
+      <div class="cart-footer">
+        <div class="cart-total">
+          <strong>Total: <span id="cart-total">€0.00</span></strong>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+      </div>
+    </div>
+
+    <div class="cart-overlay" id="cart-overlay"></div>
+
     <script type="module" src="./js/mob-menu.js"></script>
     <script type="module" src="./js/lang.js"></script>
+    <script type="module" src="./js/cart.js"></script>
   </body>
 </html>
