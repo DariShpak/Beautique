@@ -512,10 +512,9 @@ body.lock-scroll {
 
 .category-card img {
   width: 100%;
+
   object-fit: cover;
   transition: transform 0.3s ease;
-
-  aspect-ratio: 3/4;
 }
 
 .category-card:hover img {
